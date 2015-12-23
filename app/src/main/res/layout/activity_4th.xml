@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:background="@android:color/white"
+            android:layout_height="fill_parent">
+
+    <LinearLayout
+        android:id="@+id/subscribe_main_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.jinlin.draggridview.custom_4th.DragGrid
+            android:id="@+id/userGridView"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="14dip"
+            android:layout_marginRight="14dip"
+            android:gravity="center"
+            android:horizontalSpacing="14dip"
+            android:listSelector="@android:color/transparent"
+            android:numColumns="4"
+            android:scrollbars="vertical"
+            android:stretchMode="columnWidth"
+            android:verticalSpacing="14.0px"/>
+
+        <com.jinlin.draggridview.custom_4th.OtherGridView
+            android:id="@+id/otherGridView"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="14dip"
+            android:layout_marginRight="14dip"
+            android:gravity="center"
+            android:horizontalSpacing="14dip"
+            android:listSelector="@android:color/transparent"
+            android:numColumns="4"
+            android:scrollbars="vertical"
+            android:stretchMode="columnWidth"
+            android:verticalSpacing="14.0px"/>
+    </LinearLayout>
+</ScrollView>
